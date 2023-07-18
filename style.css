@@ -1,8 +1,19 @@
 p{
-    font-weight:bold;
     color:rgba(8, 4, 71, 0.726)
 }
 p{
-    color:orange
+    color:green
+
+}
+p{
+    color:blue
+}
+.Neo{
+    color:green;}
+.bold{
+    font-weight:bold;
+}
+.colorit{
+    color:brown;
 
 }
