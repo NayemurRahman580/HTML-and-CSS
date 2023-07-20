@@ -1,7 +1,24 @@
 table{
     width: 500px;
     text-align: center;
+    margin: 30px auto;
+    background-color: aqua;
+    
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 2px solid red;
 }
 .Al{
     text-align: left;
+}
+.Bli{
+    background-color:yellow;
+    color:brown;
+}
+.B39{
+    color:orangered
+}
+table caption{
+    background-color: bisque;
 }
