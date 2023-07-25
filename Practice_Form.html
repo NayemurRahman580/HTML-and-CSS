@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title class="head">Survey Form</title>
+        <link rel="stylesheet" href="CSS/Practice_Form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form method="post">
+            <table>
+                <caption class="cap">Survey Form</caption>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Which option best describes your current role?</td>
+                    <td><select>
+                        <option value="Student">Student</option>
+                        <option value="Govt Employee">Govt Employee</option>
+                        <option value="NGO Worker">NGO Worker</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Would you suggest this Page?</td>
+                    <td><input type="radio" value="Definetely"> Definately</td>
+                    <td><input type="radio" value="Maybe">Maybe</td>
+                    <td><input type="radio" value="Not Sure">Not Sure</td>
+                </tr>
+                <tr>
+                    <td>What do you like most in FCC</td>
+                    <td>
+                        <select><option value="Select an option">Select an option</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit Here"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
