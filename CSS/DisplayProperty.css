@@ -1,6 +1,7 @@
 #wrapper span{
     background-color: aqua;
-    display: inline-block;
+   
+    display: block;
 }
 
 /*display block, none, inline are most common property*/
