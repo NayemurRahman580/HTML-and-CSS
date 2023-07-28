@@ -1,0 +1,13 @@
+.block1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transition: all 4s cubic-bezier(0.19, 1, 0.22, 1);
+    margin: 400px;
+}
+.block1:hover{
+    background-color: brown;
+    transform: scale(2.5, 2);
+    /*transform: rotate(90deg); */    /*transform: skewX(90deg); 
+    transform: skewY(90deg)*/
+}

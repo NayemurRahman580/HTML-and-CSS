@@ -1,0 +1,13 @@
+.block1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    transition: background-color 5s, width 5s, height 7s cubic-bezier(0.23, 1.23, 1, -0.35);                /*no comma can be used before cubic-bezier*/
+     
+}
+.block1:hover{
+    background-color: green;
+    width: 300px;
+    height: 500px;
+}
