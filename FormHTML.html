@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>This is our Form</legend>
+        First Name <br>
+        <input type="text" name="firstname"><br>
+        Last Name <br>
+        <input type="text" name="lastname"><br> 
+        Gender <br>
+        <input type="radio" name="gender" value="Male">Male <br>
+        <input type="radio" name="gender" value="Female">Female <br>
+        Email
+        <input type="email"> <br>
+        Fav color
+        <input type="color"> <br>
+        Upload CV
+        <input type="file"> <br>
+        Password
+        <input type="password"> <br>
+        
+        <!--placeholder using is discouraged in html5/<input type="text" name="lastname" placeholder="write your last name">-->
+
+        Country
+        <select name="country" id="">
+            <option value="usa">USA</option>
+            <option value="ksa">KSA</option>
+            <option value="Bangladesh" selected>Bangladesh</option>
+            <option value="Pakistan">Pakistan</option>
+            <!--<option value="Bangladesh" selected>Bangladesh</option>-->
+        </select> <br>
+        DOB
+        <input type="date" min="1950-05-25" max="2023-07-23"> <br>
+        Age 
+        <input type="number" name="age" id="" min="20" max="50"> <br>
+        Write Someting <br>
+        <textarea name="textarea" id="" cols="30" rows="10" placeholder="whats on your mind"></textarea> <br>
+        <input type="submit">
+        <input type="reset">
+    </fieldset>
+    </form>
+</body>
+</html>
