@@ -1,0 +1,14 @@
+.mybtn{
+    width: 100px;
+    height: 35px;
+    border-radius: 12px; /*border-radius: 1px 2px 3px 4px;*/
+    font-size: 18px;
+    padding: 5px;
+    color: brown;
+    transition: all 3s ease;
+}
+.mybtn:hover{
+    color: aqua;
+    background-color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+p{
+    border: 2px solid red;
+}
+img{
+    float:left;
+}
+p.Clear{
+    clear: left;  /*clear :bot; clear: right;*/
+}
