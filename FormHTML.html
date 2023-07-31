@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORM</title>
+    <link rel="stylesheet" href="CSS/FormHTML.css">
 </head>
 <body>
     <form action="">
         <fieldset>
             <legend>This is our Form</legend>
-        First Name <br>
-        <input type="text" name="firstname"><br>
-        Last Name <br>
-        <input type="text" name="lastname"><br> 
+        <label>First Name</label><br> <!--I used label tag to particularly give color to First Name in CSS-->
+        <input type="text" name="firstname"><br><br>
+        <label>Last Name</label> <br>
+        <input type="text" name="lastname"><br> <br>
         Gender <br>
         <input type="radio" name="gender" value="Male">Male <br>
-        <input type="radio" name="gender" value="Female">Female <br>
+        <input type="radio" name="gender" value="Female">Female <br><br>
         Email
-        <input type="email"> <br>
+        <input type="email"> <br><br>
         Fav color
-        <input type="color"> <br>
+        <input type="color"> <br><br>
         Upload CV
-        <input type="file"> <br>
+        <input type="file"> <br><br>
         Password
-        <input type="password"> <br>
+        <input type="password"> <br><br>
         
         <!--placeholder using is discouraged in html5/<input type="text" name="lastname" placeholder="write your last name">-->
 
@@ -34,11 +35,11 @@
             <option value="Bangladesh" selected>Bangladesh</option>
             <option value="Pakistan">Pakistan</option>
             <!--<option value="Bangladesh" selected>Bangladesh</option>-->
-        </select> <br>
+        </select> <br><br>
         DOB
-        <input type="date" min="1950-05-25" max="2023-07-23"> <br>
+        <input type="date" min="1950-05-25" max="2023-07-23"> <br><br>
         Age 
-        <input type="number" name="age" id="" min="20" max="50"> <br>
+        <input type="number" name="age" id="" min="20" max="50"> <br><br>
         Write Someting <br>
         <textarea name="textarea" id="" cols="30" rows="10" placeholder="whats on your mind"></textarea> <br>
         <input type="submit">
