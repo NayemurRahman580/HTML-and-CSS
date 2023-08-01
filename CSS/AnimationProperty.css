@@ -1,0 +1,27 @@
+.mydiv{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+
+    -webkit-animation-name: nayemur;
+    animation-name: nayemur;
+
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;   
+    
+    -webkit-animation-iteration-count:3;
+    animation-iteration-count:3;
+    /*animation-iteration-count:infinite;*/
+}
+
+@-webkit-keyframes nayemur{
+    from{background-color: red}
+    to{background-color: green; border-radius: 50%}
+}
+@keyframes nayemur{
+    from{background-color: red}
+    to{background-color: green; border-radius: 50%}
+}
+
+
+/*-webkit- is used to make sure that the css works in every browser.*/
